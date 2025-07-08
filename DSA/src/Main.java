@@ -12,5 +12,17 @@ public class Main {
         Arrays.print_Pairs(arr);
         Arrays.print_Subarrays(arr);
         Arrays.print_Sum_Subarrays(arr);
+//----------------------------------------------------------------------------------------
+        //        sorting funtions
+        Sorting_Algo.bubble_Sort(arr);
+        Sorting_Algo.selection_Sort(arr);
+        Sorting_Algo.insertion_sort(arr);
+        Sorting_Algo.counting_Sort(arr);
+        Sorting_Algo.mergeSort(arr,0, arr.length-1);
+        Sorting_Algo.quickSort(arr,0,arr.length-1);
+
+        for(int i=0; i<arr.length; i++){
+            System.out.print(arr[i]+" ");
+        }
     }
 }
