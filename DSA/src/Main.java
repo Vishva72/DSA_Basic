@@ -5,24 +5,29 @@ public class Main {
 
         int [] arr = {-5,4,-1,3,2};
 //        basic techniques
-        Arrays.linearSearch(17,arr);
-        Arrays.find_Largest(arr);
-        Arrays.binarySearch(26,arr);
-        Arrays.reverse_Array(arr);
-        Arrays.print_Pairs(arr);
-        Arrays.print_Subarrays(arr);
-        Arrays.print_Sum_Subarrays(arr);
+//        Arrays.linearSearch(17,arr);
+//        Arrays.find_Largest(arr);
+//        Arrays.binarySearch(26,arr);
+//        Arrays.reverse_Array(arr);
+//        Arrays.print_Pairs(arr);
+//        Arrays.print_Subarrays(arr);
+//        Arrays.print_Sum_Subarrays(arr);
 //----------------------------------------------------------------------------------------
         //        sorting funtions
-        Sorting_Algo.bubble_Sort(arr);
-        Sorting_Algo.selection_Sort(arr);
-        Sorting_Algo.insertion_sort(arr);
-        Sorting_Algo.counting_Sort(arr);
-        Sorting_Algo.mergeSort(arr,0, arr.length-1);
-        Sorting_Algo.quickSort(arr,0,arr.length-1);
+//        Sorting_Algo.bubble_Sort(arr);
+//        Sorting_Algo.selection_Sort(arr);
+//        Sorting_Algo.insertion_sort(arr);
+//        Sorting_Algo.counting_Sort(arr);
+//        Sorting_Algo.mergeSort(arr,0, arr.length-1);
+//        Sorting_Algo.quickSort(arr,0,arr.length-1);
+//
+//        for(int i=0; i<arr.length; i++){
+//            System.out.print(arr[i]+" ");
+//        }
+//        ------------------------------------------------------------------------------------
+//        *****Strings*****
+            Strings stri = new Strings();
+//        System.out.println( stri.is_Palndrome("racecar"));
 
-        for(int i=0; i<arr.length; i++){
-            System.out.print(arr[i]+" ");
-        }
     }
 }
